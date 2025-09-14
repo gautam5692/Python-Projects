@@ -1,95 +1,109 @@
 # Python Projects
 
-This repository contains various python projects
+This repository contains various Python projects created by Gautam Chauhan.
 
-# Author:
-Gautam Chauhan
+---
 
-# Projects List
+## 📌 Author
 
-- Project 1: This project is a snake, water, gun game in which snake defeats water, water defeats gun and gun defeats snake.
+**Gautam Chauhan**
 
-- Project 1 again: This project is also same as project 1 which is snake, water, gun game but I created it because I had not touched coding for a few days after learning python and creating the project 1.
+---
 
-- Project 1 GUI version: This project is a snake, water, gun game in GUI (Graphical User Interface) version.
+## 🗂️ Projects List
 
-- Project 2: This project is "Guess the number" game in which a random number is generated using random module within a range of 0 to 100 you have to the number until you guess the correct number. It also shows the number of attempts taken to guess the correct number.
+- **Project 1 – Snake, Water, Gun (CLI Version)**  
+  A classic game where:
+  - Snake drinks water 🐍 > 💧
+  - Water damages gun 💧 > 🔫
+  - Gun kills snake 🔫 > 🐍
 
-- Mega_Project_1 - Jarvis: This project is a personal assistant named Jarvis created using various modules and google gemini api for AI integration. This assistant can open applications or web applications on speech input and also we can ask it for any information which it will response using the google gemini ai.
-This mega project has four python files:
-1. main.py: Run this program if you want speech input
-2. no_speech.py: Run this program if you want text input
-3. no_speech_GUI.py: Run this program if you want to use it with GUI
-4. apps.py: On running this file, nothing will happen because it only contains the common file locations of apps so that if you tell your assistant to open an app in computer, it can find the location of your app and open it. You can add more apps and their locations to access those apps
+- **Project 1 Again**  
+  A repeat of Project 1 created to refresh coding skills after a short break.
 
-- Note:- while opening app with text input, you have to write:
-```bash
-Your input here: open application appname
-```
+- **Project 1 – GUI Version**  
+  The Snake, Water, Gun game with a graphical user interface (GUI) built using Python.
+
+- **Project 2 – Guess the Number**  
+  A game where a random number is generated between 0 and 100. The player keeps guessing until the correct number is found. The total number of attempts is displayed.
+
+- **Mega Project 1 – Jarvis Personal Assistant**  
+  A voice- and text-based personal assistant using Python and the Google Gemini AI API. It can open desktop apps, perform web searches, and respond to queries.
+
+  This project has four files:
+  1. `main.py` – Run this for **speech input**
+  2. `no_speech.py` – Use for **text input**
+  3. `no_speech_GUI.py` – Use for **GUI with text input**
+  4. `apps.py` – Contains file paths of installed apps. You can customize it to support more apps.
+
+  **Note:** To open apps using text input, type:
+  ```bash
+  Your input here: open application appname
+  ```
 without the keyword "open application", you won't be able to open the app
 
 # How to run these projects
 
-# Projects without requirements.txt file
+## Projects without requirements.txt file
 
-- Step 1:
-Ensure that you have python installed. If not installed, install python first
+  - Step 1:
+    Ensure that you have python installed. If not installed, install python first
 
-- Step 2:
-Open Terminal or command prompt and navigate to the project folder. Example:-
-```bash
-D:\Projects\my_python_project
-```
+  - Step 2:
+    Open Terminal or command prompt and navigate to the project folder. Example:-
+    ```bash
+    D:\Projects\my_python_project
+    ```
 
-- Step 3:
-Run the following command:-
-```bash
-python file.py
-```
+  - Step 3:
+    Run the following command:-
+    ```bash
+    python file.py
+    ```
 
 
-# Projects with requirements.txt file
+## Projects with requirements.txt file
 
-- Step 1:
-Ensure that you have python installed. If not installed, install python first
+  - Step 1:
+    Ensure that you have python installed. If not installed, install python first
 
-- Step 2:
-Open Terminal or command prompt and navigate to the project folder. Example:-
-```bash
-D:\Projects\my_python_project
-```
+  - Step 2:
+    Open Terminal or command prompt and navigate to the project folder. Example:-
+    ```bash
+    D:\Projects\my_python_project
+    ```
 
-- Step 3:
-Install virtual environment (recommended but not necessary):-
-```bash
-pip install virtualenv
-```
+  - Step 3:
+    Install virtual environment (recommended but not necessary):-
+    ```bash
+    pip install virtualenv
+    ```
 
-- Step 4:
-Create a virtual environment:-
-```bash
-virtualenv myprojectenv
-```
+  - Step 4:
+    Create a virtual environment:-
+    ```bash
+    virtualenv myprojectenv
+    ```
 
-- Step 5:
-Activate your virtual environment:
-```bash
-./myprojectenv/Scripts/activate.ps1
-```
+  - Step 5:
+    Activate your virtual environment:
+    ```bash
+    ./myprojectenv/Scripts/activate.ps1
+    ```
 
-- Note:- If you want to install all the packages in your system and not in any virtual environment then you can skip step 3, step 4 and step 5 and move to step 6
+  - Note:- If you want to install all the packages in your system and not in any virtual environment then you can skip step 3, step 4 and step 5 and move to step 6
 
-- Step 6:
-Install all the required packages to run the python program:
-```bash
-pip install -r requirements.txt
-```
+  - Step 6:
+    Install all the required packages to run the python program:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-- Step 7:
-After the installation of required packages, move to the next step
+  - Step 7:
+    After the installation of required packages, move to the next step
 
-- Step 3:
-Run the following command:-
-```bash
-python file.py
-```
+  - Step 8:
+    Run the following command:-
+    ```bash
+    python file.py
+    ```
