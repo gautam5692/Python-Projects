@@ -42,50 +42,50 @@ This repository contains various Python projects created by Gautam Chauhan.
   ```
 without the keyword "open application", you won't be able to open the app
 
-# How to run these projects
+# How to Run These Projects
 
-## Projects without requirements.txt file
+## Projects Without `requirements.txt` File
 
-  - Step 1:
+  - **Step 1:**
     Ensure that you have python installed. If not installed, install python first
 
-  - Step 2:
+  - **Step 2:**
     Open Terminal or command prompt and navigate to the project folder. Example:-
     ```bash
     D:\Projects\my_python_project
     ```
 
-  - Step 3:
+  - **Step 3:**
     Run the following command:-
     ```bash
     python file.py
     ```
 
 
-## Projects with requirements.txt file
+## Projects With `requirements.txt` File
 
-  - Step 1:
+  - **Step 1:**
     Ensure that you have python installed. If not installed, install python first
 
-  - Step 2:
+  - **Step 2:**
     Open Terminal or command prompt and navigate to the project folder. Example:-
     ```bash
     D:\Projects\my_python_project
     ```
 
-  - Step 3:
+  - **Step 3:**
     Install virtual environment (recommended but not necessary):-
     ```bash
     pip install virtualenv
     ```
 
-  - Step 4:
+  - **Step 4:**
     Create a virtual environment:-
     ```bash
     virtualenv myprojectenv
     ```
 
-  - Step 5:
+  - **Step 5:**
     Activate your virtual environment:
     ```bash
     ./myprojectenv/Scripts/activate.ps1
@@ -93,16 +93,16 @@ without the keyword "open application", you won't be able to open the app
 
   - Note:- If you want to install all the packages in your system and not in any virtual environment then you can skip step 3, step 4 and step 5 and move to step 6
 
-  - Step 6:
+  - **Step 6:**
     Install all the required packages to run the python program:
     ```bash
     pip install -r requirements.txt
     ```
 
-  - Step 7:
+  - **Step 7:**
     After the installation of required packages, move to the next step
 
-  - Step 8:
+  - **Step 8:**
     Run the following command:-
     ```bash
     python file.py
