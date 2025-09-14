@@ -40,7 +40,7 @@ This repository contains various Python projects created by Gautam Chauhan.
   ```bash
   Your input here: open application appname
   ```
-without the keyword "open application", you won't be able to open the app
+  Without the keyword "open application", you won't be able to open the app
 
 # How to Run These Projects
 
