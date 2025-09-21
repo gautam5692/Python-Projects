@@ -27,6 +27,9 @@ This repository contains various Python projects created by Gautam Chauhan.
 - **Project 2 – Guess the Number**  
   A game where a random number is generated between 0 and 100. The player keeps guessing until the correct number is found. The total number of attempts is displayed.
 
+- **Todo App**  
+  A user-friendly to-do application that allows you to add, delete, modify, and list tasks. All to-dos are stored in a JSON file, ensuring they are easily accessible for future use.
+
 - **Mega Project 1 – Jarvis Personal Assistant**  
   A voice- and text-based personal assistant using Python and the Google Gemini AI API. It can open desktop apps, perform web searches, and respond to queries.
 
